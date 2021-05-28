@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reptide</title>
+
+  <!-- ------- FAVICON ------- -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- ------- CSS ------- -->
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+
+<body>
+
+  <div id="home">
+
+    <!-- ------- HEADER ------- -->
+    <header id="header">
+      <!-- title -->
+      <div class="title-div">
+        <img src="img/dragon.png" alt="" id="header-img" class="logo">
+        <h1 id="title">Reptide</h1>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="menu">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+          d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z" />
+      </svg>
+
+      <!-- nav -->
+      <nav id="nav-bar">
+        <div class="menu-div">
+          <ul class="list">
+            <li class="item"><a href="#why" class="nav-link">Why</a></li>
+            <li class="item"><a href="#how" class="nav-link">How</a></li>
+            <li class="item"><a href="#safety" class="nav-link">Safety</a></li>
+            <li class="item"><a href="#app" class="nav-link">App</a></li>
+          </ul>
+          <div class="button-div">
+            <a href="#" class="link">Sign in</a>
+            <a href="#" class="link full">Sign up</a>
+          </div>
+        </div>
+      </nav>
+      <!-- buttons -->
+      <div class="button-div">
+        <a href="#" class="link">Sign in</a>
+        <a href="#" class="link full">Sign up</a>
+      </div>
+    </header>
+
+    <!-- -------- MAIN -------- -->
+    <main id="main">
+
+      <!-- section hero  -->
+      <section class="section hero">
+        <img src="img/hero.png" alt="" class="image">
+        <!-- hero image from https://www.artstation.com/nasaru, the image has been edited from third parties -->
+        <div class="content-div">
+          <div class="title-div">
+            <h2 class="title">
+              Ride the tides with a
+              <br><span class="highlight">Dragon!</span>
+            </h2>
+            <p class="description">
+              The first and only dragon
+              <br>sharing service you need!
+            </p>
+          </div>
+          <div class="button-div">
+            <a href="#" class="link">Need a ride?</a>
+            <p class="text">or</p>
+            <a href="#" class="link full">Become a Tider</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- divider -->
+      <div class="divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
+          class="wave">
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z">
+          </path>
+        </svg>
+      </div>
+
+      <!-- section video  -->
+      <section class="section video">
+        <video id="video" class="video" autoplay loop>
+          <source src="video/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <!-- video from https://www.youtube.com/channel/UCTPCYsosfl0bmCMxhvlFalA -->
+      </section>
+
+      <!-- section why  -->
+      <section class="section why">
+        <div id="why" class="anchor"></div>
+        <h2 class="title">
+          <span class="highlight">W</span>hy us
+        </h2>
+
+        <p class="text">We provide you with the quickest and safest dragon sharing service worldwide.</p>
+
+        <ul class="list bubble">
+          <li class="item">
+            <div class="paragraph-div">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+              </svg>
+              <h3 class="paragraph">Rides on time</h3>
+            </div>
+            <p class="text">
+              Request a ride at any time and any day of the year.
+            </p>
+          </li>
+          <li class="item">
+            <div class="paragraph-div">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z" />
+              </svg>
+              <h3 class="paragraph">Affordable options</h3>
+            </div>
+            <p class="text">
+              Compare prices for all ride options, and choose the one you need.
+            </p>
+          </li>
+          <li class="item">
+            <div class="paragraph-div">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z" />
+                <circle cx="12" cy="9" r="2.5" />
+              </svg>
+              <h3 class="paragraph">Ride with simplicity</h3>
+            </div>
+            <p class="text">
+              A single touch to have a tider accompany you to your destination.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section how  -->
+      <section class="section how">
+        <div id="how" class="anchor"></div>
+        <h2 class="title">
+          <span class="highlight">H</span>ow it works
+        </h2>
+
+        <p class="text">Have a nice, quick and safe journey with few steps.</p>
+
+        <ul class="list">
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Open your app</h3>
+            <p class="text">
+              Open your app, choose your destination, verify your ride settings such as size of the dragon,
+              price and estimated arrival time. Choose whatever ride you like and confirm!
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Wait for your ride</h3>
+            <p class="text">
+              The nearest tider will accept your reservation and you'll receive a notification on your app one minute
+              before the dragon arrives.
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Your ride begins</h3>
+            <p class="text">
+              After the dragon arrives, you and the tider must verify your reservation. If everything is okay, the ride
+              begins!
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z" />
+              <circle cx="12" cy="9" r="2.5" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Safe destination</h3>
+            <p class="text">
+              During the journey the tider can access the app to follow the right directions.
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="icon">
+              <g>
+                <rect fill="none" height="24" width="24" x="0" y="0" />
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M9,21h9c0.83,0,1.54-0.5,1.84-1.22l3.02-7.05C22.95,12.5,23,12.26,23,12v-2c0-1.1-0.9-2-2-2h-6.31l0.95-4.57l0.03-0.32 c0-0.41-0.17-0.79-0.44-1.06L14.17,1L7.58,7.59C7.22,7.95,7,8.45,7,9v10C7,20.1,7.9,21,9,21z M9,9l4.34-4.34L12,10h9v2l-3,7H9V9z M1,9h4v12H1V9z" />
+                </g>
+              </g>
+            </svg>
+          </li>
+          <li class="item last">
+            <h3 class="paragraph">Time for a feedback</h3>
+            <p class="text">
+              At the end of your journey you and the tider can leave a negative or positive feedback at each other
+              through the app.
+            </p>
+          </li>
+        </ul>
+
+      </section>
+
+      <!-- section safety  -->
+      <section class="section safety">
+        <div id="safety" class="anchor"></div>
+        <h2 class="title">
+          <span class="highlight">S</span>afety
+        </h2>
+
+        <p class="text">We care about every customer and tiders.</p>
+
+        <ul class="list">
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="icon">
+              <g>
+                <rect fill="none" height="24" width="24" />
+              </g>
+              <g>
+                <path
+                  d="M12,2L4,5v6.09c0,5.05,3.41,9.76,8,10.91c4.59-1.15,8-5.86,8-10.91V5L12,2z M18,11.09c0,4-2.55,7.7-6,8.83 c-3.45-1.13-6-4.82-6-8.83v-4.7l6-2.25l6,2.25V11.09z" />
+              </g>
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Protection from any danger</h3>
+            <p class="text">
+              Every dragon is equipped with a spells free magic seal. You don't need to worry about casually casting
+              spells or about the sharp blade of your sword. We serve every customer, be they necromancers or healers,
+              sorcerers or warriors!
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92zM18 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM6 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm12 7.02c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">User your app for safety and sharing</h3>
+            <p class="text">
+              With our app you can request assistance and call for emergency with a simple touch. You can share your
+              ride details with your loved ones.
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z" />
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">A community made by you</h3>
+            <p class="text">
+              Milions of users and tiders are commited to follow the community guidelines and take responsibility in
+              respecting and enforcing them. We provide an online community managed by people like you, with guides and
+              support.
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="icon">
+              <g>
+                <rect fill="none" height="24" width="24" />
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M21,12.22C21,6.73,16.74,3,12,3c-4.69,0-9,3.65-9,9.28C2.4,12.62,2,13.26,2,14v2c0,1.1,0.9,2,2,2h1v-6.1 c0-3.87,3.13-7,7-7s7,3.13,7,7V19h-8v2h8c1.1,0,2-0.9,2-2v-1.22c0.59-0.31,1-0.92,1-1.64v-2.3C22,13.14,21.59,12.53,21,12.22z" />
+                  <circle cx="9" cy="13" r="1" />
+                  <circle cx="15" cy="13" r="1" />
+                  <path
+                    d="M18,11.03C17.52,8.18,15.04,6,12.05,6c-3.03,0-6.29,2.51-6.03,6.45c2.47-1.01,4.33-3.21,4.86-5.89 C12.19,9.19,14.88,11,18,11.03z" />
+                </g>
+              </g>
+            </svg>
+          </li>
+          <li class="item">
+            <h3 class="paragraph">Receive assistance at any time</h3>
+            <p class="text">
+              We have a team of experts available 32 hours a day, 8 moon cycle a week. Contact them with your app at any
+              time for questions or concerns about your safety.
+            </p>
+          </li>
+          <li class="item icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" />
+            </svg>
+          </li>
+          <li class="item last">
+            <h3 class="paragraph">CPS monitoring</h3>
+            <p class="text">
+              All tiders are tracked via our Clairvoyance Positioning System from start to finish so that no matter what
+              happens, there is a trace.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- divider -->
+      <div class="divider bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
+          class="wave">
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z">
+          </path>
+        </svg>
+      </div>
+
+      <!-- section app  -->
+      <section class="section app">
+        <div id="app" class="anchor"></div>
+        <h2 class="title">
+          Download our <br>
+          <span class="highlight">APP</span>
+        </h2>
+
+        <p class="text">
+          Join thousands of customers and tiders with just one click!
+        </p>
+
+        <div class="button-div">
+          <a href="#" class="link full">iOS</a>
+          <a href="#" class="link full">Android</a>
+        </div>
+      </section>
+
+      <!-- section form  -->
+      <section class="section form">
+        <h2 class="title">
+          Subscribe to our newsletter
+        </h2>
+        <form action="https://www.freecodecamp.org/email-submit" id="form" name="newsletter-form" class="form">
+          <input type="email" id="email" name="email" placeholder="Enter your email to subscribe" class="input"
+            required>
+
+          <input type="submit" id="submit" class="submit">
+        </form>
+      </section>
+
+    </main>
+
+    <!-- ------- FOOTER ------- -->
+    <footer id="footer">
+
+      <div class="divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
+          class="wave">
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z">
+          </path>
+        </svg>
+      </div>
+
+      <div class="content-div">
+        <div class="title-div">
+          <svg id="Layer_1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1" class="icon">
+            <path
+              d="m348.351 132.311a4.99 4.99 0 0 0 -5.6 4.322c-4.742 36.883-48.124 86.419-73.561 112.664a5 5 0 0 0 7.181 6.96c58.206-60.056 73.618-97.507 76.3-118.349a5 5 0 0 0 -4.32-5.597z"
+              fill="#ffffff" />
+            <path
+              d="m360.317 153.12a5 5 0 1 0 -1.627 9.866c47.117 7.773 57.171 46.635 57.577 48.285a5 5 0 0 0 9.721-2.343c-.458-1.912-11.838-46.928-65.671-55.808z"
+              fill="#ffffff" />
+            <path
+              d="m336.591 206.569a5 5 0 0 0 -2.549 6.595c14.682 33.2-.024 78.519-.174 78.973a5 5 0 0 0 9.491 3.151c.664-2 16.089-49.4-.173-86.168a5 5 0 0 0 -6.595-2.551z"
+              fill="#ffffff" />
+            <path
+              d="m52.14 57.406c-20.04 20.005-10.026 46.705-9.59 47.832a5 5 0 0 0 9.33-3.6c-.335-.883-8.043-21.822 7.324-37.159a5 5 0 1 0 -7.064-7.077z"
+              fill="#ffffff" />
+            <path
+              d="m134.489 114.355a5 5 0 0 0 -2.07-6.761c-1.48-.786-36.544-19.125-64.7-8.859a5 5 0 0 0 3.424 9.395c23.908-8.715 56.143 8.061 56.587 8.3a5 5 0 0 0 6.761-2.07z"
+              fill="#ffffff" />
+            <path
+              d="m384.772 317.242a161.814 161.814 0 0 0 -6.884 26.416 5 5 0 1 0 9.849 1.732 151.737 151.737 0 0 1 6.449-24.777 5 5 0 0 0 -9.414-3.371z"
+              fill="#ffffff" />
+            <path
+              d="m402.071 284.875c-1.491 1.947-2.946 3.992-4.324 6.08a5 5 0 1 0 8.343 5.51c1.251-1.893 2.57-3.748 3.92-5.51a5 5 0 1 0 -7.939-6.08z"
+              fill="#ffffff" />
+            <path
+              d="m468.064 247.573c-.061 0-.124 0-.187 0a76.328 76.328 0 0 0 -19.158 3.946 95.684 95.684 0 0 0 -32.877 18.669 5 5 0 0 0 6.556 7.551 85.73 85.73 0 0 1 29.44-16.72 68.027 68.027 0 0 1 16.42-3.454 5 5 0 0 0 -.194-10z"
+              fill="#ffffff" />
+            <path
+              d="m231.91 199.45a5 5 0 0 0 5.5-8.351 123 123 0 0 1 -31.529-29.356 5 5 0 0 0 -8.038 5.947 132.951 132.951 0 0 0 34.067 31.76z"
+              fill="#ffffff" />
+            <path
+              d="m181.466 117.715a5 5 0 0 0 -3.766 5.985 118.632 118.632 0 0 0 8.167 23.888 5 5 0 0 0 9.06-4.232 108.577 108.577 0 0 1 -7.475-21.871 5 5 0 0 0 -5.986-3.77z"
+              fill="#ffffff" />
+            <path
+              d="m179.545 97.614h.181a5 5 0 0 0 4.994-4.814 75.644 75.644 0 0 1 1.043-10.756 5 5 0 0 0 -9.8-1.976 83.053 83.053 0 0 0 -1.234 12.374 5 5 0 0 0 4.816 5.172z"
+              fill="#ffffff" />
+            <path
+              d="m403.894 112.763a294.868 294.868 0 0 0 -72.758 4.015 5 5 0 0 0 -3.973 4.264c-2.036 15.831-14.3 51.52-73.559 112.665-3.975 4.1-7.185 10.359-10.582 16.984-4.447 8.671-9.989 19.461-15 18.39a118.887 118.887 0 0 0 -26.943-2.373c-12.972-32.212 6.595-57.2 7.469-58.286a5 5 0 0 0 -1.134-7.324c-26.878-17.7-43.741-41.363-50.121-70.332-4.794-21.761-1.558-38.56-1.527-38.719a5 5 0 0 0 -4.182-5.939c-36.3-5.27-60.318-17.024-69.449-33.992-8.715-16.2-1.514-31.917-1.212-32.561a5 5 0 0 0 -5.794-6.994c-25.245 6.717-43.384 19.385-53.917 37.652-16.447 28.524-8.176 60.072-7.816 61.4a5 5 0 0 0 2.771 3.251c43.177 19.46 71.728 56.65 88.075 84.422a291.784 291.784 0 0 1 23.458 50.274c-.454-.108-.9-.217-1.361-.324a89.05 89.05 0 0 0 -19.589-2.39c1.066-3.362 1.769-5.759 1.852-6.042a5 5 0 0 0 -4.8-6.4 37.008 37.008 0 0 0 -10.752 1.52 103.479 103.479 0 0 0 -1.385-17.8 5 5 0 0 0 -7.41-3.464c-28.855 16.54-32.297 64.758-32.429 66.803 0 .046-.005.091-.006.136l-1.136 30.31-.008.3a10.754 10.754 0 0 0 8.873 10.912l13.305 2.419a5 5 0 0 0 5.113-2.235l7.311-11.49c4.732-2.159 18.195-9.476 22.534-24.282 10.593-.136 25.225 1.436 39.57 8.729a131.256 131.256 0 0 0 7.612 27.5c5.651 13.9 13.275 24.5 22.685 31.582l-11.328 32.693a15.715 15.715 0 0 0 2.527 14.947l7.6 9.621a15.692 15.692 0 0 0 12.386 6 5.769 5.769 0 0 1 5.313 3.508 18.769 18.769 0 0 0 -9.177 16.208v12.631a5 5 0 0 0 3.673 4.821l10.827 2.977a5 5 0 0 0 6.181-3.628l1.169-4.759a8.874 8.874 0 0 1 3.349-5l-1.214 12.924a5 5 0 0 0 2.959 5.042l10.748 4.742a5 5 0 0 0 6.794-3.094l.758-2.443a89.648 89.648 0 0 0 8.818 9.964c13.115 12.766 36.228 27.111 73.851 27.111q5.324 0 11.05-.4c15.019-.019 32.284-3.97 48.064-17.114l15.973-11.42a5.062 5.062 0 0 0 .554-.46l5.557-5.329a50.386 50.386 0 0 0 15.519-34.166l1.039-22.386a5 5 0 0 0 -8.36-3.93l-17.565 15.983a50.491 50.491 0 0 0 -16.31 32.563l-.575 5.957c-18.745 20.018-53.382 13.025-53.649 12.97-27.311-6.3-31.352-34.519-31.711-37.584.6-61.693-10.445-85.172-16.587-93.432 12.352-13.934 29.935-21.87 52.334-23.6a119.711 119.711 0 0 1 33.387 2.127 5 5 0 0 0 6.106-3.992c6.223-35.375 21.623-60.889 45.774-75.832 18.052-11.17 34.581-11.982 34.735-11.989a5 5 0 0 0 4.807-4.719c.936-16.86 6.281-29.314 15.886-37.017 15.045-12.066 36.021-8.772 36.223-8.738a5 5 0 0 0 5.538-6.63c-12.225-33.801-45.702-53.755-96.808-57.708zm-290.894 81.69c-30.052-51.165-65.35-75.853-90.443-87.653-1.431-7.179-4.76-30.644 7.318-51.59 7.912-13.726 21.008-23.879 38.993-30.26a47.153 47.153 0 0 0 4.374 31.75c10.344 19.4 34.549 32.361 71.981 38.545a119.667 119.667 0 0 0 2.2 37.221c4.541 21 16.98 50.523 50.262 74.1-5.866 9.353-17.064 32.447-7.083 60.733-4.807.444-8.544 1.029-10.676 1.408a159.387 159.387 0 0 0 -23.535-10.574 4.942 4.942 0 0 0 -.159-2.31c-.379-1.178-9.362-29-15.652-43.559a5 5 0 1 0 -9.179 3.966c4.623 10.7 10.982 29.522 13.829 38.13-1.935-.6-3.921-1.2-6.01-1.8-1.282-4.26-9.094-28.951-26.22-58.107zm75.861 214.152a5.75 5.75 0 0 1 -4.539-2.2l-7.6-9.621a5.755 5.755 0 0 1 -.926-5.477l10.47-30.207c2.9 1.928 5.442 3.67 7.568 5.15a21.344 21.344 0 0 0 -6.86 18.486l1.362 10.63a21.411 21.411 0 0 0 12.754 16.889l.365.155a11.311 11.311 0 0 1 6.069 6.239l-3.717.572-.384-.92a15.741 15.741 0 0 0 -14.561-9.696zm32.729 48.05-2.317-1.023.931-9.905c.753 1.691 1.724 3.69 2.941 5.907zm24.8 9.019a78.9 78.9 0 0 1 -15.935-21.683l1.837.05a5.024 5.024 0 0 0 5.074-4.231l1.443-9.3c5.9 15.848 16.6 36.99 35.031 52.511a81.088 81.088 0 0 1 -27.45-17.347zm241.779-299.037c-9.01 0-23.421 1.768-35.4 11.333-11.093 8.855-17.6 22.321-19.365 40.063a92.926 92.926 0 0 0 -34.67 12.73c-17.875 10.916-40.713 33.232-49.887 77.9a133.228 133.228 0 0 0 -31.061-1.395c-26.757 2-48.348 12.61-62.437 30.672a4.877 4.877 0 0 0 -1.124 3.905 4.621 4.621 0 0 0 2.13 3.225c1.165 1.072 16.892 16.981 16.145 89.42a4.842 4.842 0 0 0 .023.525 62.07 62.07 0 0 0 6.2 20.094c7.053 13.956 18.546 23.125 33.321 26.534 1.71.362 42.054 8.594 64.42-17.352a4.991 4.991 0 0 0 1.189-2.784l.733-7.593a40.515 40.515 0 0 1 13.087-26.127l8.647-7.868-.479 10.341a40.429 40.429 0 0 1 -12.452 27.413l-5.3 5.079-15.836 11.311c-.1.074-.206.153-.3.235-32.3 27.04-73.681 8.86-77.02 7.319-34.336-21.969-44.978-67.809-46.329-74.29l1.658-10.686a5 5 0 1 0 -9.88-1.533l-6.024 38.823-12.174-.326a19.018 19.018 0 0 0 -18.793 14.146l-2.2-.605v-8.821a8.842 8.842 0 0 1 7.54-8.786l11.54-1.776a5 5 0 0 0 4.239-4.942 21.3 21.3 0 0 0 -12.927-19.6l-.364-.155a11.367 11.367 0 0 1 -6.77-8.967l-1.364-10.63a11.36 11.36 0 0 1 9.011-12.542l17.145-3.429a11.34 11.34 0 0 1 10.007 2.882l10.9 10.33a5 5 0 1 0 6.877-7.259l-10.9-10.33a21.346 21.346 0 0 0 -18.845-5.428l-17.145 3.429-1.378-.966c-3.628-2.545-9.11-6.391-16.231-10.949-16.226-10.385-23.833-31.395-27.24-45.517a74.186 74.186 0 0 1 6.545 5.72 5 5 0 0 0 7.012-7.13c-34.741-34.168-80.89-23.352-82.835-22.875a5 5 0 0 0 2.37 9.714c.083-.019 1.756-.406 4.615-.793-5.066 10.274-16.536 14.769-16.66 14.817a4.994 4.994 0 0 0 -2.466 2l-6.338 9.96-10-1.818a.805.805 0 0 1 -.666-.812l1.136-30.416c.121-1.656 2.933-36.994 20.994-53.93a65.443 65.443 0 0 1 -.151 13.332 34.736 34.736 0 0 0 -9.634 13.241 53.7 53.7 0 0 0 -4.156 19.271 5 5 0 0 0 4.988 4.994h.012a5 5 0 0 0 5-4.982c0-1.079.338-23.835 17.894-28.678-2.2 6.814-5.261 15.553-7.542 19.545a5 5 0 1 0 8.681 4.962 91.031 91.031 0 0 0 5.488-12.914 76.868 76.868 0 0 1 20.7 2.079c34.175 7.947 52.077 19.105 52.247 19.212a5.006 5.006 0 0 0 3.731.672c.229-.049 23.206-4.851 45.878 0 12.522 2.682 19.674-11.286 25.991-23.6 2.914-5.682 5.927-11.557 8.865-14.588 54.947-56.694 71.758-93.244 75.721-114.693 9.435-1.581 37.186-5.545 66.814-3.225 43.526 3.406 72.033 18.16 84.885 43.889z"
+              fill="#ffffff" />
+            <circle cx="69.429" cy="293.711" fill="#ffffff" r="5.5" />
+          </svg>
+          <h3 class="title">Reptide</h3>
+        </div>
+
+        <div class="list-div">
+          <p class="title">Company</p>
+          <ul class="list">
+            <li class="item"><a href="#" class="link">About us</a></li>
+            <li class="item"><a href="#" class="link">Contact us</a></li>
+            <li class="item"><a href="#" class="link">Blog</a></li>
+            <li class="item"><a href="#" class="link">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="list-div">
+          <p class="title">App</p>
+          <ul class="list">
+            <li class="item"><a href="#" class="link">Download</a></li>
+            <li class="item"><a href="#" class="link">How it works</a></li>
+            <li class="item"><a href="#" class="link">Changelog</a></li>
+          </ul>
+        </div>
+
+        <div class="list-div">
+          <p class="title">Support</p>
+          <ul class="list">
+            <li class="item"><a href="#" class="link">Safety</a></li>
+            <li class="item"><a href="#" class="link">Help center</a></li>
+          </ul>
+        </div>
+
+        <div class="list-div">
+          <p class="title">Get Started</p>
+          <ul class="list">
+            <li class="item"><a href="#" class="link">Request a ride</a></li>
+            <li class="item"><a href="#" class="link">Become a tider</a></li>
+          </ul>
+        </div>
+
+        <div class="social-div">
+          <a href="#" class="link">
+            <svg id="Bold" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+              class="icon">
+              <path
+                d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+            </svg></a>
+          <a href="#" class="link">
+            <svg id="Bold" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+              class="icon">
+              <path
+                d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" />
+            </svg>
+          </a>
+          <a href="#" class="link">
+            <svg id="Bold" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+              class="icon">
+              <path
+                d="m12.004 5.838c-3.403 0-6.158 2.758-6.158 6.158 0 3.403 2.758 6.158 6.158 6.158 3.403 0 6.158-2.758 6.158-6.158 0-3.403-2.758-6.158-6.158-6.158zm0 10.155c-2.209 0-3.997-1.789-3.997-3.997s1.789-3.997 3.997-3.997 3.997 1.789 3.997 3.997c.001 2.208-1.788 3.997-3.997 3.997z" />
+              <path
+                d="m16.948.076c-2.208-.103-7.677-.098-9.887 0-1.942.091-3.655.56-5.036 1.941-2.308 2.308-2.013 5.418-2.013 9.979 0 4.668-.26 7.706 2.013 9.979 2.317 2.316 5.472 2.013 9.979 2.013 4.624 0 6.22.003 7.855-.63 2.223-.863 3.901-2.85 4.065-6.419.104-2.209.098-7.677 0-9.887-.198-4.213-2.459-6.768-6.976-6.976zm3.495 20.372c-1.513 1.513-3.612 1.378-8.468 1.378-5 0-7.005.074-8.468-1.393-1.685-1.677-1.38-4.37-1.38-8.453 0-5.525-.567-9.504 4.978-9.788 1.274-.045 1.649-.06 4.856-.06l.045.03c5.329 0 9.51-.558 9.761 4.986.057 1.265.07 1.645.07 4.847-.001 4.942.093 6.959-1.394 8.453z" />
+              <circle cx="18.406" cy="5.595" r="1.439" />
+            </svg>
+          </a>
+        </div>
+
+        <p class="copyright">© 2021 Reptide</p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
